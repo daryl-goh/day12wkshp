@@ -24,10 +24,20 @@ public class CartService {
         lstItems.add(itm);
 
         itm = new Item();
-        itm.setItemName("LV Tot Ba");
+        itm.setItemName("LV Tot Bag");
         itm.setQuantity(8);
         lstItems.add(itm);
-        
+
+        itm = new Item();
+        itm.setItemName("Prada Bag");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("Balenciaga Bag");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
         return lstItems;
     }
 }
